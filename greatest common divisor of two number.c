@@ -127,8 +127,10 @@ int main()
     lineerSearch_multiplication(arr1,arr2);
     end:
     printf("greatest common divisor of two number -> %d",GCD);
-
+    
+    printf("\n);
+	   
     system("pause");
 
-	return 0;
+    return 0;
 }
