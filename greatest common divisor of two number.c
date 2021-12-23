@@ -1,6 +1,5 @@
 #include <stdio.h>
 #include <stdlib.h>
-#include <locale.h>
 
 
 int check_variable = 0;
@@ -56,9 +55,7 @@ void printArray(int arr[])
 int main()
 {
 
-    setlocale(LC_ALL,"Turkish");
-
-	int n1, n2;
+    int n1, n2;
 
     int sonuc1,sonuc2;;
 
