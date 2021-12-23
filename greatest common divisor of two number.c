@@ -61,10 +61,10 @@ int main()
 
     int zero = 0;
 
-	printf("first number --> ");
-	scanf("%d", &n1);
-	printf("second number --> ");
-	scanf("%d", &n2);
+    printf("first number --> ");
+    scanf("%d", &n1);
+    printf("second number --> ");
+    scanf("%d", &n2);
 
     int number1 = n1;
     int number2 = n2;
