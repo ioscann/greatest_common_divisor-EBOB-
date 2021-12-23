@@ -57,7 +57,7 @@ int main()
 
     int n1, n2;
 
-    int sonuc1,sonuc2;;
+    int conculusion1,conculusion2;;
 
     int zero = 0;
 
@@ -78,8 +78,8 @@ int main()
         {
             if (n1 % i == 0)
             {
-                sonuc1 = n1 / i;
-                n1 = sonuc1;
+                conculusion1 = n1 / i;
+                n1 = conculusion1;
                 count1++;
             }
         }
@@ -93,8 +93,8 @@ int main()
         {
             if (n2 % j == 0)
             {
-                sonuc2 = n2 / j;
-                n2 = sonuc2;
+                conculusion2 = n2 / j;
+                n2 = conculusion2;
                 count2++;
             }
         }
