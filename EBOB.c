@@ -58,16 +58,16 @@ int main()
 
     setlocale(LC_ALL,"Turkish");
 
-	int n1, n2;
+    int n1, n2;
 
     int sonuc1,sonuc2;;
 
     int zero = 0;
 
-	printf("EBOB'u bulunacak ilk sayıyı giriniz --> ");
-	scanf("%d", &n1);
-	printf("EBOB'u bulunacak ikinci sayıyı giriniz --> ");
-	scanf("%d", &n2);
+    printf("EBOB'u bulunacak ilk sayÄ±yÄ± giriniz --> ");
+    scanf("%d", &n1);
+    printf("EBOB'u bulunacak ikinci sayÄ±yÄ± giriniz --> ");
+    scanf("%d", &n2);
 
     int number1 = n1;
     int number2 = n2;
@@ -129,9 +129,11 @@ int main()
 
     lineerSearch_multiplication(arr1,arr2);
     end:
-    printf("Bu iki sayının EBOBU -> %d",EBOB);
+    printf("Bu iki sayÄ±nÄ±n EBOBU -> %d",EBOB);
 
     system("pause");
 
-	return 0;
+    printf("\n);
+
+    return 0;
 }
